@@ -214,7 +214,9 @@ Each runner has a configuration block at the top where you can edit `SEEDS` / `D
 
 If you reproduce the results in this repository for academic comparison, please cite the original paper:
 
-> [Paper title], [Authors], Awaiting acceptance, [Year].
+> CPGAPPO: Critical-Path-Aware Graph Reinforcement Learning for Task Offloading in Consumer Wireless Edge Environments,
+ Xiangyu Ren, Fagui Liu, Bin Wang, Xuhao Tang, Quan Tang, Fa Zhu, Yiqun Zhong, and Jun Jiang,
+ Awaiting acceptance, 2026.
 
 ---
 

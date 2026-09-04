@@ -213,7 +213,9 @@ python runners/_run3_cpgappo_LAMBDA_GUIDE_changenumber.py
 
 如复现结果用于学术对比, 请引用原文:
 
-> [论文标题], [作者], Awaiting acceptance, [年份].
+> CPGAPPO: Critical-Path-Aware Graph Reinforcement Learning for Task Offloading in Consumer Wireless Edge Environments,
+ Xiangyu Ren, Fagui Liu, Bin Wang, Xuhao Tang, Quan Tang, Fa Zhu, Yiqun Zhong, and Jun Jiang,
+ Awaiting acceptance, 2026.
 
 ---
 
