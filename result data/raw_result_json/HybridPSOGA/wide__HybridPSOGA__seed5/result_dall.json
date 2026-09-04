@@ -1,0 +1,43 @@
+{
+  "status": "ok",
+  "algorithm": "HybridPSOGA",
+  "dag": "wide",
+  "seed": 5,
+  "D_succ": 0.4001288898606669,
+  "D_all": 0.524009451923115,
+  "E_succ": 0.1347212774782123,
+  "E_all": 0.1347212774782123,
+  "AppTO": 51.33333333333333,
+  "TaskTO": 61.06194690265486,
+  "energy": 0.1347212774782123,
+  "total_energy": 20.208191621731846,
+  "ckpt_used": "n/a (heuristic)",
+  "ckpt_path": "n/a",
+  "config": {
+    "timeout_charge_mode": "deadline",
+    "deadline_slot": 55,
+    "matrix_path": "D:\\svn\\CPGAPPO\\matrix\\matrix_60_wide.txt",
+    "burst_prob": 0.2,
+    "burst_size": 55,
+    "max_steps": 8000,
+    "stop_arrival_step": 2000
+  },
+  "action_stats": {
+    "local": 100,
+    "cloud": 396,
+    "edge": 936,
+    "timeout": 489,
+    "unknown": 0,
+    "total": 1921,
+    "total_actions": 1432
+  },
+  "subtask_stats": {
+    "total": 1921,
+    "finished": 1432,
+    "unfinished": 489,
+    "timeout": 1173
+  },
+  "elapsed_sec": 0.6,
+  "UtilityScore_succ": -0.5367598348485247,
+  "UtilityScore_all": -0.5367598348485247
+}

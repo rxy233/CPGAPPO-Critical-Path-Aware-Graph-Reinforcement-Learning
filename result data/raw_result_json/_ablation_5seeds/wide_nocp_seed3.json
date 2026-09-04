@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "variant": "nocp",
+  "topology": "wide",
+  "seed": 3,
+  "D_succ": 0.45572176377290663,
+  "D_all": 0.4727275485531198,
+  "E_succ": 0.13356781239426183,
+  "E_all": 0.13356781239426183,
+  "AppTO": 0.05333333333333334,
+  "TaskTO": 0.18808962264150944,
+  "Score_succ": 0.46506813417190535,
+  "UtilityScore_succ_code0.25": 0.5828521799010249,
+  "UtilityScore_all_code0.25": 0.5828521799010249,
+  "energy": 0.13356781239426183,
+  "total_energy": 20.03517185913933,
+  "ckpt_used": "best",
+  "ckpt_path": "D:\\svn\\fenxi\\ablation_classic_wide_20260608_114130\\wide__nocp__seed3\\checkpoints\\GuidedV3_cpguide_credit_nocp.pt",
+  "config": {
+    "timeout_charge_mode": "deadline",
+    "deadline_charge_formula": "get_app_deadline_slot(uid) * slot_interval (= TD_i^max - TS_i)",
+    "deadline_slot": 55,
+    "matrix_path": "D:\\svn\\第一论文大修\\matrix\\matrix_60_wide.txt",
+    "burst_prob": 0.2,
+    "burst_size": 55,
+    "max_steps": 8000,
+    "stop_arrival_step": 2000,
+    "use_backward": true,
+    "use_shield": true,
+    "use_cp": true
+  },
+  "action_stats": {
+    "local": 0,
+    "cloud": 1518,
+    "edge": 150,
+    "timeout": 28,
+    "unknown": 0,
+    "total": 1696,
+    "total_actions": 1668
+  },
+  "subtask_stats": {
+    "total": 1696,
+    "finished": 1668,
+    "unfinished": 28
+  },
+  "elapsed_sec": 7.7,
+  "UtilityScore_succ": 0.5828521799010249,
+  "UtilityScore_all": 0.5828521799010249
+}

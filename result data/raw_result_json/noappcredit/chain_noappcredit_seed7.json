@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "algorithm": "train_guided_v3_cpguide_credit_noappcredit",
+  "dag": "chain",
+  "seed": 7,
+  "energy": 0.19719229722388315,
+  "delay": 1.2163167342205308,
+  "app_timeout_rate": 0.02666666666666667,
+  "task_timeout_rate": 0.6116666666666667,
+  "score": 1.2833701628938603,
+  "total_energy": 29.57884458358242,
+  "inference_time_ms": 7.544257026676495,
+  "runtime_sec": 3340.8,
+  "runtime_min": 55.68,
+  "episodes": 100,
+  "deadline_slot": 55,
+  "matrix": "D:\\svn\\第一论文大修\\matrix\\matrix_60_chain.txt"
+}

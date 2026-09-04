@@ -1,0 +1,38 @@
+# CPGAPPO .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 实验运行产物
+results/
+collected_csv/
+cache_graph/
+*.log
+
+# 临时 / 自动生成
+runners/_worker.py
+runners/_retrain_manifest_seed*.json
+*_worker.py
+
+# 一次性补丁脚本
+_patch_paths.py
+_collect_ckpts.py
+
+# IDE / OS
+.idea/
+.vscode/
+.codebuddy/
+.qoder/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 大文件 / 模型 (pretrained/ 默认进版本库; 若需 LFS, 取消下行注释)
+# pretrained/**/*.pt
+# pretrained/**/*.pth

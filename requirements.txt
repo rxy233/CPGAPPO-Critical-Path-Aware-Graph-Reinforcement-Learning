@@ -1,0 +1,25 @@
+# CPGAPPO 依赖
+# 安装: pip install -r requirements.txt
+# Python 3.9+ (在 3.9 / 3.10 上验证)
+# torch 1.12~2.2 均可; CUDA 12.x 按 https://pytorch.org/get-started/locally/ 装对应 wheel
+
+# 深度学习
+torch>=1.12,<2.3
+
+# 图神经网络 (GATv2Conv / GCNConv / global_mean_pool)
+torch-geometric>=2.3,<2.6
+
+# 数值 / 数据处理
+numpy>=1.22,<2.0
+pandas>=1.5,<2.2
+scipy>=1.9,<1.13
+scikit-learn>=1.1,<1.5
+
+# 图结构 (DAG 拓扑)
+networkx>=2.8,<3.3
+
+# 绘图
+matplotlib>=3.6,<3.9
+
+# 符号计算 (task_scheduler.py import)
+sympy>=1.11

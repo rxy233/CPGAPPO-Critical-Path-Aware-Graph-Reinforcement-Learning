@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "variant": "alloff",
+  "topology": "chain",
+  "seed": 7,
+  "D_succ": 1.2515846508691213,
+  "D_all": 1.2337944927648266,
+  "E_succ": 0.19945930396416336,
+  "E_all": 0.19945930396416336,
+  "AppTO": 0.05333333333333334,
+  "TaskTO": 0.6473333333333333,
+  "Score_succ": 1.4519691556633512,
+  "UtilityScore_succ_code0.25": 0.5162113361558596,
+  "UtilityScore_all_code0.25": 0.5168433000173394,
+  "energy": 0.19945930396416336,
+  "total_energy": 29.918895594624466,
+  "ckpt_used": "best",
+  "ckpt_path": "D:\\svn\\fenxi\\ablation_classic_chain_20260608_114124\\chain__alloff__seed7\\checkpoints\\GuidedV3_cpguide_credit_alloff.pt",
+  "config": {
+    "timeout_charge_mode": "deadline",
+    "deadline_charge_formula": "get_app_deadline_slot(uid) * slot_interval (= TD_i^max - TS_i)",
+    "deadline_slot": 55,
+    "matrix_path": "D:\\svn\\第一论文大修\\matrix\\matrix_60_chain.txt",
+    "burst_prob": 0.2,
+    "burst_size": 55,
+    "max_steps": 8000,
+    "stop_arrival_step": 2000,
+    "use_backward": false,
+    "use_shield": false,
+    "use_cp": false
+  },
+  "action_stats": {
+    "local": 8,
+    "cloud": 2721,
+    "edge": 251,
+    "timeout": 20,
+    "unknown": 0,
+    "total": 3000,
+    "total_actions": 2980
+  },
+  "subtask_stats": {
+    "total": 3000,
+    "finished": 2980,
+    "unfinished": 20
+  },
+  "elapsed_sec": 25.6,
+  "UtilityScore_succ": 0.5003565421316879,
+  "UtilityScore_all": 0.5015186861389139
+}

@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "algorithm": "train_guided_v3_cpguide_credit_alloff",
+  "dag": "default",
+  "seed": 7,
+  "energy": 0.20118241332082512,
+  "delay": 1.110738653760894,
+  "app_timeout_rate": 0.04,
+  "task_timeout_rate": 0.593,
+  "score": 1.233760308576848,
+  "total_energy": 30.177361998123683,
+  "inference_time_ms": 4.225569665703447,
+  "runtime_sec": 1919.3,
+  "runtime_min": 31.99,
+  "episodes": 100,
+  "deadline_slot": 55,
+  "matrix": "D:\\svn\\第一论文大修\\matrix\\matrix_60.txt"
+}
